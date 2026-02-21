@@ -1,4 +1,4 @@
-# Tarea01 Pyto
+# Tarea01 Pyton 
 
 ## Integrantes
 
