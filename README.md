@@ -36,7 +36,7 @@ lista_doble.png
 
 Programa en Python que implementa diversas funciones recursivas y una interfaz CLI interactiva.
 
-##Tarea04 
+## Tarea04 
 Implementar un programa interactivo en Python que permita a los usuarios crear, manipular y visualizar un Árbol AVL, extendiendo la funcionalidad de un Árbol Binario de Búsqueda (ABB). El programa debe proporcionar las siguientes funcionalidades:
 
 Insertar elementos en el árbol, manteniendo el balance mediante las rotaciones necesarias.
