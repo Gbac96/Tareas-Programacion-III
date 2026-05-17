@@ -13,6 +13,12 @@ Participación: 100%
 
 2. Ejecutar:
    python lista_doble.py
+3. ## Requisitos Previos
+
+1. **Python 3.x** instalado en el sistema.
+2. Biblioteca **Graphviz** para Python:
+   ```bash
+   pip install graphviz
 
 Cada modificación genera automáticamente una imagen llamada:
 lista_doble.png
