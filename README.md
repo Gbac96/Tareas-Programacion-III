@@ -49,6 +49,23 @@ Cargar datos desde un archivo CSV para construir el árbol.
 
 Generar una representación en Graphviz del árbol resultante.
 
+## Tarea06
+
+Desarrollar un programa en Python que implemente un Árbol B configurable por el grado del nodo, permitiendo las siguientes funcionalidades:
+
+Configuración inicial: Permitir ingresar el grado del Árbol B.
+
+Operaciones básicas:
+
+Insertar claves.
+
+Buscar claves.
+
+Eliminar claves.
+
+Carga de datos desde archivos CSV.
+
+Archivos de Prueba (CSV): Se debe incluir, en la raíz del proyecto, un par de archivos .csv con datos de ejemplo (mínimo 100 registros cada uno). Estos archivos servirán para probar la estabilidad del Árbol B durante la carga masiva.
 
 
 ## Requisitos
