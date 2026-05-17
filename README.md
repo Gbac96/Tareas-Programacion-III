@@ -56,23 +56,33 @@ Desarrollar un programa en Python que implemente un Árbol B configurable por el
 Configuración inicial: Permitir ingresar el grado del Árbol B.
 
 Operaciones básicas:
-
 Insertar claves.
-
 Buscar claves.
-
 Eliminar claves.
-
 Carga de datos desde archivos CSV.
 
-Archivos de Prueba (CSV): Se debe incluir, en la raíz del proyecto, un par de archivos .csv con datos de ejemplo (mínimo 100 registros cada uno). Estos archivos servirán para probar la estabilidad del Árbol B durante la carga masiva.
+##Instrucciones
+
+Sigue las instrucciones del menú interactivo. **Debes iniciar seleccionando la opción 1** para definir el grado del Árbol B antes de hacer cualquier otra operación.
+
+## Instrucciones para Cargar Archivos CSV
+
+En la raíz del proyecto se incluyen tres archivos para pruebas masivas: `datos1.csv`, `datos2.csv` y `datos3.csv`.
+
+1. En el menú principal, selecciona la **Opción 5**.
+2. Cuando el sistema lo solicite, escribe el nombre del archivo exacto, incluyendo la extensión, por ejemplo: `datos1.csv`.
+3. El programa leerá la primera columna de cada fila (asumiendo que es un ID numérico) y la insertará automáticamente en la estructura del Árbol B.
+4. Una vez terminada la carga, puedes usar la **Opción 6** para generar la gráfica y comprobar la estabilidad del árbol después de la inserción masiva.
+
+## Representación Gráfica
+La opción 6 del menú genera un archivo `.dot` y automáticamente lo renderiza en un archivo `.png` en la misma carpeta del proyecto. El árbol está coloreado y estructurado en forma de registros para identificar fácilmente los nodos y sus divisiones.
 
 
 ## Requisitos
 - Python 3.x (no requiere librerías externas)
 
 ## Cómo ejecutar
-1. Clona el repositorio o descarga el archivo `funciones_recursivas.py`.
+1. Clona el repositorio o descarga el archivo que quieras usar.
 2. Abre una terminal en la carpeta donde se encuentra el archivo.
 3. Ejecuta:
    ```bash
