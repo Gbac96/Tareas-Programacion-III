@@ -1,0 +1,5 @@
+// Árbol B
+digraph {
+	node [fillcolor=lightblue shape=record style=filled]
+	2062932070080 [label="<f0> 3 | <f1> 4"]
+}
